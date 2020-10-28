@@ -35,6 +35,7 @@ public class Bot {
     client.addCommand(new PumaCommand());
     client.addCommand(new ObiCommand());
     client.addCommand(new SlenderCommand());
+    //hi jack
     client.addCommand(new IngameChatCommand());
 
 
