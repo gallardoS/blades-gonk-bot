@@ -1,2 +1,2 @@
 # blades-gonk-bot
-Ex-PS2 Players SWBF2 Bot
+Star Wars Battlefront II (Classic) Discord Bot using JDA
