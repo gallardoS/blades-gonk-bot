@@ -25,8 +25,8 @@ public class CurrentCommand extends Command {
     DashboardService dashboardService = new DashboardService();
     MapTranslator mapTranslator = new MapTranslator();
 
-    String urlPlayers = "http://192.236.161.206:8080/live/players";
-    String urlDashboard = "http://192.236.161.206:8080/live/dashboard";
+    String urlPlayers = "http://192.236.161.206:60310/live/players";
+    String urlDashboard = "http://192.236.161.206:60310/live/dashboard";
 
     String bfhIcon = "https://i.imgur.com/05yRTv7.png";
 
@@ -50,7 +50,7 @@ public class CurrentCommand extends Command {
                     + " called by " + event.getAuthor().getName()
                     + " on " + event.getChannel().getName()
                     + " at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
-                    + ". Length is " + currentPlayers + "/24. ");
+                    + ". Length is " + currentPlayers + "/20. ");
             event.getChannel().sendMessage(buildEmbedMessage(currentPlayers, jsonDashboard).build()).queue();
         } catch (IOException e) {
             event.getChannel().sendMessage(getEmbedMessageError().build()).queue();
@@ -67,7 +67,7 @@ public class CurrentCommand extends Command {
         playerList.sort(String.CASE_INSENSITIVE_ORDER);
         String playerListTrim = String.join(", ", playerList);
 
-        embedMessage.setTitle("EU Public 1 - Current players: " + currentPlayers + "/24.");
+        embedMessage.setTitle("EU Public 1 - Current players: " + currentPlayers + "/20.");
         embedMessage.setColor(new Color(229,170,68));
         embedMessage.setFooter("The Battlefront Hub", bfhIcon);
 

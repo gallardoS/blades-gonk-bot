@@ -24,8 +24,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eb602ac-fd09-4aaf-a79c-7d745f9143c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/BladeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/BrandonCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Caamen2Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CaamenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Chameau2Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CocoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CrudeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/IceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/JackCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Lea2Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Lea3Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/LoserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/LostCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/MichaelCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/NowayCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Obi2Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Obi3Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiWonCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/PogCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/QuabityCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ReverseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/RogerRogerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/SnachCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/SuperChameauCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Supermadcommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/TSOCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Toxic2Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ToxicCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ValCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -36,7 +65,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/ObiCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/ObiCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +194,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fujitsu Remote/git/GUS_backend_ws" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -172,13 +212,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Bot">
-    <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.swamigallardo.blades.gonk.Bot" />
-      <module name="blades-gonk-bot.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -186,6 +219,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swamigallardo.blades.gonk.Bot" />
+      <module name="blades-gonk-bot.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,7 +246,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="DiscordBot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -225,14 +267,16 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bot" />
         <item itemvalue="Gradle.DiscordBot [build]" />
         <item itemvalue="Gradle.DiscordBot [clean]" />
-        <item itemvalue="Application.Bot" />
       </list>
     </recent_temporary>
   </component>
@@ -322,117 +366,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1596603097558">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596603097558" />
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596980025065">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596980025065" />
-    <state x="480" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596659287971">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="480" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596659287971" />
-    <state x="806" y="202" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1596603855282">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="806" y="202" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596603855282" />
-    <state x="769" y="389" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596602314585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="389" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596602314585" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596659915679">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596659915679" />
-    <state x="2606" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599856965711">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2606" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599856965711" />
-    <state x="461" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596796407937">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596796407937" />
-    <state x="715" y="223" width="886" height="594" key="#xdebugger.evaluate" timestamp="1596591852978">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="223" width="886" height="594" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596591852978" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599639284795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599639284795" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597657078262" />
-    <state width="1860" height="278" key="GridCell.Tab.0.bottom" timestamp="1603911352468">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380200011" />
-    <state width="1860" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603911352468" />
-    <state width="1860" height="278" key="GridCell.Tab.0.center" timestamp="1603911352468">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380200011" />
-    <state width="1860" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603911352468" />
-    <state width="1860" height="278" key="GridCell.Tab.0.left" timestamp="1603911352468">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380200011" />
-    <state width="1860" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603911352468" />
-    <state width="1860" height="278" key="GridCell.Tab.0.right" timestamp="1603911352468">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380200011" />
-    <state width="1860" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603911352468" />
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1603380198979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380198979" />
-    <state width="1892" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597404332519" />
-    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1603380198979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380198979" />
-    <state width="1892" height="358" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597404332519" />
-    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1603380198979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380198979" />
-    <state width="1892" height="358" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597404332519" />
-    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1603380198979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603380198979" />
-    <state width="1892" height="358" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597404332519" />
-    <state x="870" y="155" key="RollbackChangesDialog" timestamp="1602228048750">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="870" y="155" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602228048750" />
-    <state x="519" y="173" key="SettingsEditor" timestamp="1596660211415">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="519" y="173" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596660211415" />
-    <state width="968" height="483" key="XDebugger.FullValuePopup" timestamp="1596594591344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="483" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596594591344" />
-    <state x="566" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596595883894">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="566" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596595883894" />
-    <state x="493" y="256" width="934" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597320361917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="493" y="256" width="934" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597320361917" />
-    <state x="690" y="281" key="extract.method.dialog" timestamp="1597006516930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="281" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597006516930" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597074632094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597074632094" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

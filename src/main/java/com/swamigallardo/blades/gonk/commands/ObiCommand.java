@@ -13,6 +13,6 @@ public class ObiCommand extends Command {
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("<a:obi:763774083686989835>");
+        event.reply("https://tenor.com/view/droideka-gif-18612108");
     }
 }
