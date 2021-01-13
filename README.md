@@ -1,2 +1,2 @@
 # blades-gonk-bot
-Discord Bot using JDA for Star Wars Battlefront II (Classic).
+Discord Bot using JDA for a Star Wars Battlefront II (Classic) Discord Server.
