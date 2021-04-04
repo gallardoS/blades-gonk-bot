@@ -37,7 +37,7 @@ public class DecideCommandSmall extends Command {
         EmbedBuilder embedMessage = new EmbedBuilder();
         embedMessage.setTitle("Small Scrim Format - Random Generated");
         embedMessage.setColor(new Color(229,170,68));
-        embedMessage.setFooter("The Battlefront Hub", bfhIcon);
+        embedMessage.setFooter("Battlefront Hub", bfhIcon);
         for (int i = 0; i < formatsList.size(); i++) {
             if(getEmoji(i) == ":white_check_mark:"){
                 formatsList.set(i, boldIt(formatsList.get(i)));

@@ -69,7 +69,7 @@ public class CurrentCommand extends Command {
 
         embedMessage.setTitle("EU Public 1 - Current players: " + currentPlayers + "/20.");
         embedMessage.setColor(new Color(229,170,68));
-        embedMessage.setFooter("The Battlefront Hub", bfhIcon);
+        embedMessage.setFooter("Battlefront Hub", bfhIcon);
 
         if (!playerListTrim.isEmpty()){
         embedMessage.setDescription("> " + playerService.unescapeHtml(playerListTrim));
@@ -100,7 +100,7 @@ public class CurrentCommand extends Command {
         embedMessageError.setTitle("EU Public 1 - Error");
         embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>");
         embedMessageError.setColor(Color.RED);
-        embedMessageError.setFooter("The Battlefront Hub", bfhIcon);
+        embedMessageError.setFooter("Battlefront Hub", bfhIcon);
         return embedMessageError;
     }
 

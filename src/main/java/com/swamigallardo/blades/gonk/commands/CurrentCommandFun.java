@@ -68,7 +68,7 @@ public class CurrentCommandFun extends Command {
 
         embedMessage.setTitle("EU Fun - Current players: " + currentPlayers + "/20.");
         embedMessage.setColor(new Color(229,170,68));
-        embedMessage.setFooter("The Battlefront Hub", bfhIcon);
+        embedMessage.setFooter("Battlefront Hub", bfhIcon);
         if (!playerListTrim.isEmpty()){
         embedMessage.setDescription("> " + playerService.unescapeHtml(playerListTrim));
         }
@@ -95,7 +95,7 @@ public class CurrentCommandFun extends Command {
         embedMessageError.setTitle("EU Fun - Error");
         embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>.");
         embedMessageError.setColor(Color.RED);
-        embedMessageError.setFooter("The Battlefront Hub", bfhIcon);
+        embedMessageError.setFooter("Battlefront Hub", bfhIcon);
         return embedMessageError;
     }
 
