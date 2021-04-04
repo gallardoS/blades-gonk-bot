@@ -3,12 +3,11 @@ package com.swamigallardo.blades.gonk;
 import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.swamigallardo.blades.gonk.commands.*;
+import com.swamigallardo.blades.gonk.discordtoken.DiscordToken;
 import lombok.extern.slf4j.Slf4j;
-import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
-import net.dv8tion.jda.api.events.ReadyEvent;
 
 import javax.security.auth.login.LoginException;
 import java.util.concurrent.TimeUnit;
