@@ -16,8 +16,10 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class Bot {
     private Bot() throws LoginException {
-        JDABuilder bui = JDABuilder.createDefault("NzI2MTA2MDE4MjQwNjU5NDU2.XvYc7Q.rTInzn3_eJiwp-J8AwUw7pmmnsk");
-        final JDA jda = bui.setToken("NzI2MTA2MDE4MjQwNjU5NDU2.XvYc7Q.rTInzn3_eJiwp-J8AwUw7pmmnsk").build();
+        String token = new DiscordToken().getDiscordToken();
+
+        JDABuilder bui = JDABuilder.createDefault(token);
+        final JDA jda = bui.setToken(token).build();
     CommandClientBuilder builder = new CommandClientBuilder();
     builder.setPrefix("!");
     builder.setHelpWord("helpPM");
