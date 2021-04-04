@@ -1,1 +1,10 @@
-out/artifacts/blades_gonk_bot_main_jar/blades-gonk-bot.main.jar
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/src/main/java/com/swamigallardo/blades/gonk/discordtoken/
