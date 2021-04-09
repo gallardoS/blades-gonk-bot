@@ -66,7 +66,7 @@ public class CurrentCommand2 extends Command {
         playerList.sort(String.CASE_INSENSITIVE_ORDER);
         String playerListTrim = String.join(", ", playerList);
 
-        embedMessage.setTitle("EU Public 2 - Current players: " + currentPlayers + "/20.");
+        embedMessage.setTitle("EU Public 2 - Current players: " + currentPlayers + "/" + jsonDashboard.getString("MaxPlayers"));
         embedMessage.setColor(new Color(229,170,68));
         embedMessage.setFooter("Battlefront Hub", bfhIcon);
         if (!playerListTrim.isEmpty()){
