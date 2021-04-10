@@ -36,7 +36,7 @@ public class HelpCommand extends Command {
 
         embedMessage.setTitle("*List of Commands:*");
         embedMessage.setColor(new Color(229,170,68));
-        embedMessage.setFooter("This bot is developed by BLAD3*Danoirk. Contact me via Discord Human#2075");
+        embedMessage.setFooter("This bot is developed by BLAD3. Contact me via Discord Human#0106");
         return embedMessage;
     }
 
