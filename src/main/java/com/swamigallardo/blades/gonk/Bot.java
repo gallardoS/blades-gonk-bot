@@ -3,6 +3,7 @@ package com.swamigallardo.blades.gonk;
 import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.swamigallardo.blades.gonk.commands.*;
+import com.swamigallardo.blades.gonk.commands.meme.*;
 import com.swamigallardo.blades.gonk.discordtoken.DiscordToken;
 import lombok.extern.slf4j.Slf4j;
 import net.dv8tion.jda.api.JDA;
