@@ -123,7 +123,6 @@ public class Bot {
     client.addCommand(new SlangCommand());
     client.addCommand(new SlenderCommand());
     client.addCommand(new SuperChameauCommand());
-    client.addCommand(new SupermadCommand());
     client.addCommand(new TrinaldoCommand());
     client.addCommand(new ToxicCommand());
     client.addCommand(new Toxic2Command());

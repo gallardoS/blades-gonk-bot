@@ -24,59 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eb602ac-fd09-4aaf-a79c-7d745f9143c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/BladeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/BrandonCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Caamen2Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CaamenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Chameau2Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CocoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CrudeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/IceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/JackCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Lea2Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Lea3Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/LoserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/LostCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/MichaelCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/NowayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Obi2Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Obi3Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiWonCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/PogCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/QuabityCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ReverseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/RogerRogerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/SnachCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/SuperChameauCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Supermadcommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/TSOCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/Toxic2Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ToxicCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ValCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommand2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/ObiCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/swamigallardo/blades/gonk/commands/ObiCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommand2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/CurrentCommandFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/swamigallardo/blades/gonk/commands/ObiCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blades_gonk_bot_main_jar.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
