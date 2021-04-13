@@ -45,9 +45,11 @@ public class Bot {
     client.addCommand(new AnyderCommand());
     client.addCommand(new Anyder2Command());
     client.addCommand(new Anyder3Command());
+    client.addCommand(new Anyder4Command());
     client.addCommand(new BladeCommand());
     client.addCommand(new Blade2Command());
     client.addCommand(new Blade3Command());
+    client.addCommand(new Blade4Command());
     client.addCommand(new BonkCommand());
     client.addCommand(new BoopCommand());
     client.addCommand(new Boop2Command());
@@ -67,6 +69,8 @@ public class Bot {
     client.addCommand(new Doves2Command());
     client.addCommand(new Doves3Command());
     client.addCommand(new Doves4Command());
+    client.addCommand(new ElevenCommand());
+    client.addCommand(new DSPCommand());
     client.addCommand(new GroguCommand());
     client.addCommand(new IceCommand());
     client.addCommand(new InflexibleCommand());
@@ -119,10 +123,13 @@ public class Bot {
     client.addCommand(new SeanCommand());
     client.addCommand(new Sean2Command());
     client.addCommand(new Sean3Command());
+    client.addCommand(new SickCommand());
     client.addCommand(new SnachCommand());
     client.addCommand(new SlangCommand());
     client.addCommand(new SlenderCommand());
+    client.addCommand(new StewoCommand());
     client.addCommand(new SuperChameauCommand());
+    client.addCommand(new SupermadCommand());
     client.addCommand(new TrinaldoCommand());
     client.addCommand(new ToxicCommand());
     client.addCommand(new Toxic2Command());
@@ -138,6 +145,7 @@ public class Bot {
     client.addCommand(new ZemoCommand());
     client.addCommand(new Zemo2Command());
     client.addCommand(new Zemo3Command());
+    client.addCommand(new Zemo4Command());
 
     client.addCommand(new IngameChatCommand());
 
