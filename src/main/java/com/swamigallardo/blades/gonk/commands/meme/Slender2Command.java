@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Slender2Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Slender2Command(){
+        super.name = "slender2";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/slendy-slenderman-happy-yay-excited-gif-5793636");
     }
 }

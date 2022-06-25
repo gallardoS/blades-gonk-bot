@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Val6Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Val6Command(){
+        super.name = "Val6";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/genshin-lumine-val-valerie-hi-val-gif-22174828");
     }
 }

@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class PictruesCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public PictruesCommand(){
+        super.name = "Pictrues";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/mlbshitpost-bot-gif-18674403");
     }
 }

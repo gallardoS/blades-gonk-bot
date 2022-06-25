@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Mutane3Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Mutane3Command(){
+        super.name = "mutane3";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/nintendo-luigis-mansion-king-boo-boo-ghost-gif-20527063");
     }
 }

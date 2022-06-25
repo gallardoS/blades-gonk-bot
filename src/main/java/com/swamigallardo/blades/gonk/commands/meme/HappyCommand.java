@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class HappyCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public HappyCommand(){
+        super.name = "Happy";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/hi-lucas-the-spider-spider-cute-gif-11121339");
     }
 }

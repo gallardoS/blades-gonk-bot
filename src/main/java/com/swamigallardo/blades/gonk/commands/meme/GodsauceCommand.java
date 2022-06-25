@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class GodsauceCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public GodsauceCommand(){
+        super.name = "Godsauce";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply	("https://tenor.com/view/robot-ketchup-fuck-you-funny-gif-5209498");
     }
 }

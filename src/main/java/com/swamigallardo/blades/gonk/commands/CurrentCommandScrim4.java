@@ -10,33 +10,32 @@ import net.dv8tion.jda.api.EmbedBuilder;
 import org.json.JSONObject;
 
 import java.awt.*;
-import java.io.*;
-
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
-
 import java.util.Date;
 import java.util.List;
 
-public class CurrentCommand extends Command {
+@Slf4j
+public class CurrentCommandScrim4 extends Command {
 
     PlayerService playerService = new PlayerService();
     DashboardService dashboardService = new DashboardService();
     MapTranslator mapTranslator = new MapTranslator();
 
-    String urlPlayers = "http://192.248.161.198:14938/live/players";
-    String urlDashboard = "http://192.248.161.198:14938/live/dashboard";
+    String urlPlayers = "http://92.205.62.64:8080/live/players";
+    String urlDashboard = "http://92.205.62.64:8080/live/dashboard";
 
     String bfhIcon = "https://i.imgur.com/05yRTv7.png";
 
-    String authHeaderValue = "Basic T2JpOjdlM2txWjc2MTBPTTljZEJS";
+    String authHeaderValue = "Basic QmxhZDM6RnVqaTIwMjAq";
 
-    String[] aliases = new String[]{"eupublic","online1","eu1"};
+    String[] aliases = new String[]{"Scrim4","strasbourg","bfhstrasbourg","stras","stras1"};
 
-    public CurrentCommand(){
-        super.name = "online";
+    public CurrentCommandScrim4(){
+        super.name = "onlineScrim4";
         super.aliases = aliases;
-        super.help = "Displays the current players online";
+        super.help = "Displays the current players online for BFH Strasbourg";
     }
 
     @Override
@@ -46,7 +45,7 @@ public class CurrentCommand extends Command {
             int currentPlayers = playerService.getCurrentPlayers(urlPlayers, authHeaderValue).length();
             JSONObject jsonDashboard = dashboardService.getDashboard(urlDashboard,authHeaderValue);
             event.getChannel().sendMessage(buildEmbedMessage(currentPlayers, jsonDashboard).build()).queue();
-        } catch (IOException e) {
+        } catch (Exception e) {
             event.getChannel().sendMessage(getEmbedMessageError().build()).queue();
         }
     }
@@ -54,18 +53,17 @@ public class CurrentCommand extends Command {
     public EmbedBuilder buildEmbedMessage(int currentPlayers, JSONObject jsonDashboard) throws IOException {
         EmbedBuilder embedMessage = new EmbedBuilder();
 
+
         List<String> playerList = playerService.getNamesList(playerService.getCurrentPlayers(urlPlayers, authHeaderValue));
         playerList.sort(String.CASE_INSENSITIVE_ORDER);
         String playerListTrim = String.join(", ", playerList);
 
-        embedMessage.setTitle("EU 1 - Current players: " + currentPlayers + "/" + jsonDashboard.getString("MaxPlayers"));
+        embedMessage.setTitle("BFH Strasbourg - Current players: " + currentPlayers + "/" + jsonDashboard.getString("MaxPlayers"));
         embedMessage.setColor(new Color(229,170,68));
         embedMessage.setFooter("Battlefront Hub", bfhIcon);
-
         if (!playerListTrim.isEmpty()){
         embedMessage.setDescription("> " + playerService.unescapeHtml(playerListTrim));
         }
-
         try{
             embedMessage.addField("**Current map**",
                     mapTranslator.getMapsList().get(jsonDashboard.getString("CurrentMap")), true);
@@ -74,22 +72,20 @@ public class CurrentCommand extends Command {
             embedMessage.addField("**Current map**", jsonDashboard.getString("CurrentMap"), true);
 
         }
-
         try{
             embedMessage.addField("**Next map**",
-                    mapTranslator.getMapsList().get(jsonDashboard.getString("NextMap")), true);
+                mapTranslator.getMapsList().get(jsonDashboard.getString("NextMap")), true);
         }catch(Exception e){
             embedMessage.addField("**Next map**",jsonDashboard.getString("NextMap"), true);
         }
-
         return embedMessage;
     }
 
     public EmbedBuilder getEmbedMessageError(){
         EmbedBuilder embedMessageError = new EmbedBuilder();
 
-        embedMessageError.setTitle("EU 1 - Error");
-        embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>");
+        embedMessageError.setTitle("BFH Strasbourg - Error");
+        embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>.");
         embedMessageError.setColor(Color.RED);
         embedMessageError.setFooter("Battlefront Hub", bfhIcon);
         return embedMessageError;

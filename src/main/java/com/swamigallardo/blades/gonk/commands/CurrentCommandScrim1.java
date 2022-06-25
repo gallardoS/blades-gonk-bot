@@ -30,12 +30,12 @@ public class CurrentCommandScrim1 extends Command {
 
     String authHeaderValue = "Basic QmxhZDM6RnVqaTIwMjAq";
 
-    String[] aliases = new String[]{"Scrim1","onlinescrim1"};
+    String[] aliases = new String[]{"Scrim1","onlinescrim1","london","london1"};
 
     public CurrentCommandScrim1(){
         super.name = "onlineScrim1";
         super.aliases = aliases;
-        super.help = "Displays the current players online for EU Scrim 1";
+        super.help = "Displays the current players online for BFH London 1";
     }
 
     @Override
@@ -44,17 +44,9 @@ public class CurrentCommandScrim1 extends Command {
         try {
             int currentPlayers = playerService.getCurrentPlayers(urlPlayers, authHeaderValue).length();
             JSONObject jsonDashboard = dashboardService.getDashboard(urlDashboard,authHeaderValue);
-            log.info("Command !" + super.name
-                    + " called by " + event.getAuthor().getName()
-                    + " on " + event.getChannel().getName()
-                    + " at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
-                    + ". Length is " + currentPlayers + "/20. ");
             event.getChannel().sendMessage(buildEmbedMessage(currentPlayers, jsonDashboard).build()).queue();
         } catch (Exception e) {
             event.getChannel().sendMessage(getEmbedMessageError().build()).queue();
-            log.error("Command !" + super.name
-                    + " called at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
-                    + " failed. " + e.getMessage());
         }
     }
 
@@ -92,7 +84,7 @@ public class CurrentCommandScrim1 extends Command {
     public EmbedBuilder getEmbedMessageError(){
         EmbedBuilder embedMessageError = new EmbedBuilder();
 
-        embedMessageError.setTitle("BFH Scrim 1 - Error");
+        embedMessageError.setTitle("BFH London 1 - Error");
         embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>.");
         embedMessageError.setColor(Color.RED);
         embedMessageError.setFooter("Battlefront Hub", bfhIcon);

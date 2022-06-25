@@ -18,14 +18,15 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.List;
 
+@Slf4j
 public class CurrentCommand extends Command {
 
     PlayerService playerService = new PlayerService();
     DashboardService dashboardService = new DashboardService();
     MapTranslator mapTranslator = new MapTranslator();
 
-    String urlPlayers = "http://192.248.161.198:14938/live/players";
-    String urlDashboard = "http://192.248.161.198:14938/live/dashboard";
+    String urlPlayers = "http://34.91.252.75:14938/live/players";
+    String urlDashboard = "http://34.91.252.75:14938/live/dashboard";
 
     String bfhIcon = "https://i.imgur.com/05yRTv7.png";
 
@@ -45,9 +46,17 @@ public class CurrentCommand extends Command {
         try {
             int currentPlayers = playerService.getCurrentPlayers(urlPlayers, authHeaderValue).length();
             JSONObject jsonDashboard = dashboardService.getDashboard(urlDashboard,authHeaderValue);
+            log.info("Command !" + super.name
+                    + " called by " + event.getAuthor().getName()
+                    + " on " + event.getChannel().getName()
+                    + " at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
+                    + ". Length is " + currentPlayers + "/32. ");
             event.getChannel().sendMessage(buildEmbedMessage(currentPlayers, jsonDashboard).build()).queue();
         } catch (IOException e) {
             event.getChannel().sendMessage(getEmbedMessageError().build()).queue();
+            log.error("Command !" + super.name
+                    + " called at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
+                    + " failed. " + e.getMessage());
         }
     }
 

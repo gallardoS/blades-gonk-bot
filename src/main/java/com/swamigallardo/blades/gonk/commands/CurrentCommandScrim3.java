@@ -23,19 +23,19 @@ public class CurrentCommandScrim3 extends Command {
     DashboardService dashboardService = new DashboardService();
     MapTranslator mapTranslator = new MapTranslator();
 
-    String urlPlayers = "http://85.214.246.136:19289/live/players";
-    String urlDashboard = "http://85.214.246.136:19289/live/dashboard";
+    String urlPlayers = "http://185.94.29.84:49160/live/players";
+    String urlDashboard = "http://185.94.29.84:49160/live/dashboard";
 
     String bfhIcon = "https://i.imgur.com/05yRTv7.png";
 
     String authHeaderValue = "Basic QmxhZDM6RnVqaTIwMjAq";
 
-    String[] aliases = new String[]{"Scrim3","onlinescrim3"};
+    String[] aliases = new String[]{"Scrim3","onlinescrim3","bfhfrankfurt","frankfurt","frank"};
 
     public CurrentCommandScrim3(){
         super.name = "onlineScrim3";
         super.aliases = aliases;
-        super.help = "Displays the current players online for EU Scrim 3";
+        super.help = "Displays the current players online for BFH Frankfurt";
     }
 
     @Override
@@ -44,17 +44,9 @@ public class CurrentCommandScrim3 extends Command {
         try {
             int currentPlayers = playerService.getCurrentPlayers(urlPlayers, authHeaderValue).length();
             JSONObject jsonDashboard = dashboardService.getDashboard(urlDashboard,authHeaderValue);
-            log.info("Command !" + super.name
-                    + " called by " + event.getAuthor().getName()
-                    + " on " + event.getChannel().getName()
-                    + " at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
-                    + ". Length is " + currentPlayers + "/20. ");
             event.getChannel().sendMessage(buildEmbedMessage(currentPlayers, jsonDashboard).build()).queue();
         } catch (Exception e) {
             event.getChannel().sendMessage(getEmbedMessageError().build()).queue();
-            log.error("Command !" + super.name
-                    + " called at " + new SimpleDateFormat("HH:mm:ss dd-MM-yyyy").format(Date.from(Instant.now()))
-                    + " failed. " + e.getMessage());
         }
     }
 
@@ -66,7 +58,7 @@ public class CurrentCommandScrim3 extends Command {
         playerList.sort(String.CASE_INSENSITIVE_ORDER);
         String playerListTrim = String.join(", ", playerList);
 
-        embedMessage.setTitle("BFH Scrim 3 - Current players: " + currentPlayers + "/" + jsonDashboard.getString("MaxPlayers"));
+        embedMessage.setTitle("BFH Frankfurt 1 - Current players: " + currentPlayers + "/" + jsonDashboard.getString("MaxPlayers"));
         embedMessage.setColor(new Color(229,170,68));
         embedMessage.setFooter("Battlefront Hub", bfhIcon);
         if (!playerListTrim.isEmpty()){
@@ -92,7 +84,7 @@ public class CurrentCommandScrim3 extends Command {
     public EmbedBuilder getEmbedMessageError(){
         EmbedBuilder embedMessageError = new EmbedBuilder();
 
-        embedMessageError.setTitle("BFH Scrim 3 - Error");
+        embedMessageError.setTitle("BFH Frankfurt - Error");
         embedMessageError.setDescription("> There was an error. Contact an <@&731263165480042498>.");
         embedMessageError.setColor(Color.RED);
         embedMessageError.setFooter("Battlefront Hub", bfhIcon);

@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class RIPCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public RIPCommand(){
+        super.name = "RIP";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://streamable.com/6uicvd");
     }
 }

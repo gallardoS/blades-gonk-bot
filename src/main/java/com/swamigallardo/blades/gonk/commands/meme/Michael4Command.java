@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Michael4Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Michael4Command(){
+        super.name = "michael4";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://cdn.discordapp.com/attachments/731269640424128615/871112439406657536/giphy.mp4");
     }
 }

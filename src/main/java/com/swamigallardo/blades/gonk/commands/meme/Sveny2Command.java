@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Sveny2Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Sveny2Command(){
+        super.name = "Sveny2";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/star-wars-clone-wars-clone-wars-season7-ahsoka-ahsoka-tano-gif-16168399");
     }
 }

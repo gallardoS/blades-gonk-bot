@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Kektane2Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Kektane2Command(){
+        super.name = "kektane2";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://clips.twitch.tv/HealthyFitMageRaccAttack-iz9GmNn9xfjemeyx");
     }
 }

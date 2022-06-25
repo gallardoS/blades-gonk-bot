@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Obi8Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Obi8Command(){
+        super.name = "obi8";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://media.discordapp.net/attachments/739093044346748948/847951019894898728/Obi_come_at_me_bro.gif");
     }
 }

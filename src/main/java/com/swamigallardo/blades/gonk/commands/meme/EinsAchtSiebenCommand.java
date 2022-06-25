@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class EinsAchtSiebenCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public EinsAchtSiebenCommand(){
+        super.name = "EinsAchtSieben";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/gzuz-187-einsachtsieben-gif-18371914");
     }
 }

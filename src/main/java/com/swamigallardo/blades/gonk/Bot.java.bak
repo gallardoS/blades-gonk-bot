@@ -13,6 +13,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import javax.security.auth.login.LoginException;
 import java.util.concurrent.TimeUnit;
 
+@Slf4j
 public class Bot {
     private Bot() throws LoginException {
         String token = new DiscordToken().getDiscordToken();
@@ -47,7 +48,6 @@ public class Bot {
     client.addCommand(new Anyder3Command());
     client.addCommand(new Anyder4Command());
     client.addCommand(new AvaranCommand());
-    client.addCommand(new AyakaCommand());
     client.addCommand(new BladeCommand());
     client.addCommand(new Blade2Command());
     client.addCommand(new Blade3Command());
@@ -71,7 +71,6 @@ public class Bot {
     client.addCommand(new CrudeCommand());
     client.addCommand(new Crude2Command());
     client.addCommand(new Darkrider1Command());
-	client.addCommand(new DaveCommand());
     client.addCommand(new DovesCommand());
     client.addCommand(new Doves2Command());
     client.addCommand(new Doves3Command());
@@ -137,7 +136,6 @@ public class Bot {
     client.addCommand(new Obi6Command());
     client.addCommand(new Obi7Command());
     client.addCommand(new Obi8Command());
-    client.addCommand(new Obi9Command());
     client.addCommand(new ObiWonCommand());
     client.addCommand(new PainCommand());
     client.addCommand(new PatCommand());
@@ -149,7 +147,6 @@ public class Bot {
     client.addCommand(new Quabity2Command());
     client.addCommand(new RelaCommand());
     client.addCommand(new ReverseCommand());
-    client.addCommand(new RIPCommand());
     client.addCommand(new RogerRogerCommand());
     client.addCommand(new SeanCommand());
     client.addCommand(new Sean2Command());
@@ -197,8 +194,11 @@ public class Bot {
     jda.addEventListener(client);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws LoginException {
         long enable = System.currentTimeMillis();
-//        new Bot();
+        new Bot();
+        log.info("Bot enabled in " +
+                TimeUnit.MILLISECONDS.toSeconds(System.currentTimeMillis() - enable) +
+                "ms.");
     }
 }

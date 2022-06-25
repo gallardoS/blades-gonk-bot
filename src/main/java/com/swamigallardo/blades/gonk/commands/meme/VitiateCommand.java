@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class VitiateCommand extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public VitiateCommand(){
+        super.name = "Vitiate";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://tenor.com/view/kurwa-mac-zoom-face-glasses-gif-17435136");
     }
 }

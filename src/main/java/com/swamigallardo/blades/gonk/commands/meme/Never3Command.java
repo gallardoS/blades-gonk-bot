@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Never3Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Never3Command(){
+        super.name = "never3";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://streamable.com/x1q02x");
     }
 }

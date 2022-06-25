@@ -4,15 +4,15 @@ import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 
 
-public class StewoCommand extends Command {
+public class Chameau4Command extends Command {
 
 
-    public StewoCommand(){
-        super.name = "Stewo";
+    public Chameau4Command(){
+        super.name = "chameau4";
     }
 
     @Override
     protected void execute(CommandEvent event) {
-        event.reply("https://www.youtube.com/watch?v=sxbQ0BN_in8");
+        event.reply("https://clips.twitch.tv/FurtiveWonderfulBaconSMOrc-jXhaGAzFW-oJWcod");
     }
 }
